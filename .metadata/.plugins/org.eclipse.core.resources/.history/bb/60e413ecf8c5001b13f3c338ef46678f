@@ -1,0 +1,19 @@
+package br.com.unip.sistema;
+
+import br.com.unip.funcionarios.Funcionario;
+
+public class Supervisor extends Funcionario implements Autenticavel {
+
+	@Override
+	public void setSenha(int senha) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean autentica(int senha, String login) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

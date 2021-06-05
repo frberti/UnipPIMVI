@@ -1,0 +1,24 @@
+package br.com.unip.pim_vi.testes;
+
+import br.com.unip.pim_vi.funcionario.Estoquista;
+import br.com.unip.pim_vi.funcionario.Funcionario;
+import br.com.unip.pim_vi.modelo.SistemaInterno;
+
+public class TesteCadastro {
+
+	public static void main(String[] args) {
+		
+		SistemaInterno si = new SistemaInterno();
+		
+		Funcionario estoquista = new Estoquista();
+		
+		estoquista.setSenha(1234);
+		
+		System.out.println(estoquista.getSenha());
+		si.autentica(estoquista);
+		
+		
+		
+	}
+
+}

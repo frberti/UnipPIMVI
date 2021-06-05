@@ -1,0 +1,27 @@
+package br.com.unip.modelo;
+
+public class FormaPagamento {
+	
+	private Integer idFormaPgto;
+	private String formaPagto;
+	
+	public Integer getIdFormaPgto() {
+		return idFormaPgto;
+	}
+	public void setIdFormaPgto(Integer idFormaPgto) {
+		this.idFormaPgto = idFormaPgto;
+	}
+	public String getFormaPagto() {
+		return formaPagto;
+	}
+	public void setFormaPagto(String formaPagto) {
+		this.formaPagto = formaPagto;
+	}
+	@Override
+	public String toString() {
+		return "FormaPagamento [idFormaPgto=" + idFormaPgto + ", formaPagto=" + formaPagto + "]";
+	}
+	
+	
+	
+}

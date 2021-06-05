@@ -1,0 +1,24 @@
+package br.com.unip.sistema;
+
+import br.com.unip.funcionarios.Funcionario;
+
+public class Atendente extends Funcionario implements Autenticavel{
+	
+	private Autenticacao autenticador;
+
+	public Atendente() {
+		this.autenticador = new Autenticacao();
+	}
+
+	@Override
+	public void setSenha(int senha) {
+		this.autenticador.setSenha(senha);
+		
+	}
+
+	@Override
+	public boolean autentica(int senha) {
+		return this.autenticador.autentica(senha);
+	}
+
+}

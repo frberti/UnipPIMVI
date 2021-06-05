@@ -1,0 +1,18 @@
+package br.com.unip.modelo;
+
+import java.math.BigDecimal;
+import java.time.LocalDate;
+
+public class Venda {
+	
+	private Integer idVenda;
+	private Integer idItemVenda;
+	private LocalDate dataVenda;
+	private String produto;
+	private Integer quantidade;
+	private BigDecimal preco;
+	private BigDecimal totalVenda;
+	private FormaPagamento idFormaPagto;
+	
+
+}

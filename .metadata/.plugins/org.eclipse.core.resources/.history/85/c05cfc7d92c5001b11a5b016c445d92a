@@ -1,0 +1,54 @@
+package br.com.unip.pim_vi.pessoa;
+
+import java.sql.Date;
+
+import br.com.unip.pim_vi.modelo.Autenticavel;
+
+public class Cliente extends Pessoa implements Autenticavel {
+
+	private Integer codigo;
+	private Date dataDeCadastro;
+	private Autenticacao autenticador;
+
+	public Cliente() {
+		this.autenticador = new Autenticacao();
+	}
+
+	public Integer getCodigo() {
+		return codigo;
+	}
+
+	public void setCodigo(Integer codigo) {
+		this.codigo = codigo;
+	}
+
+	public Date getDataDeCadastro() {
+		return dataDeCadastro;
+	}
+
+	public void setDataDeCadastro(Date dataDeCadastro) {
+		this.dataDeCadastro = dataDeCadastro;
+	}
+
+	@Override
+	public void setSenha(int senha) {
+		this.autenticador.setSenha(senha);
+	}
+
+	@Override
+	public void setLogin(String login) {
+		this.autenticador.setLogin(login);
+
+	}
+
+	@Override
+	public boolean autentica(int senha, String login) {
+		return this.autenticador.autentica(senha);
+	}
+
+	@Override
+	public String toString() {
+		return "Cliente [codigo=" + codigo + ", dataDeCadastro=" + dataDeCadastro + "]";
+	}
+
+}

@@ -1,0 +1,16 @@
+
+import br.com.unip.pim_vi.modelo.Cliente;
+
+public class TelaLogin {
+
+	public Cliente cliente;
+   
+    public TelaLogin() {
+    }
+
+
+    public void fazerLogin() {
+        // TODO implement here
+    }
+
+}

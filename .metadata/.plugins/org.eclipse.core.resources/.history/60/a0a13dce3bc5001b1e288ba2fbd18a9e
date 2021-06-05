@@ -1,0 +1,19 @@
+package br.com.unip.pim_vi.modelo;
+public class TelaLogin {
+
+	private String senha;
+	private String login;
+	
+	
+	
+	public void setSenha(String senha) {
+		this.senha = senha;
+	}
+	public void setLogin(String login) {
+		this.login = login;
+	}
+	
+	
+   
+
+}

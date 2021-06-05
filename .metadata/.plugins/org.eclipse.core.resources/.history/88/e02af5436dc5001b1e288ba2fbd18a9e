@@ -1,0 +1,12 @@
+package br.com.unip.pim_vi.modelo;
+public class GerenciadorDeClientes {
+
+    public GerenciadorDeClientes() {
+    }
+
+    public boolean fazerLogin(Cliente cliente) {
+        // TODO implement here
+        return false;
+    }
+
+}

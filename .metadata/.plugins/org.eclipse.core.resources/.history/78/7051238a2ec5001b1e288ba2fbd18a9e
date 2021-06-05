@@ -1,0 +1,20 @@
+package br.com.unip.pim_vi.dao;
+
+import br.com.unip.pim_vi.modelo.Cliente;
+
+public class TesteCadastro {
+
+	public static void main(String[] args) {
+		
+		Cliente cliente = new Cliente();
+		
+		cliente.setCodigo(1111);
+		cliente.setNome("Francisco Berti");
+		cliente.setEmail("francisco@francisco.com");
+		
+		
+//		System.out.println(cliente.getCodigo());
+
+	}
+
+}

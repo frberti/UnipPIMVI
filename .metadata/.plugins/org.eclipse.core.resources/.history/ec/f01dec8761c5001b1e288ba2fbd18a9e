@@ -1,0 +1,13 @@
+package br.com.unip.pim_vi.testes;
+
+import br.com.unip.pim_vi.funcionario.Estoquista;
+import br.com.unip.pim_vi.funcionario.Funcionario;
+import br.com.unip.pim_vi.funcionario.Supervisor;
+
+public class TesteCadastro {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

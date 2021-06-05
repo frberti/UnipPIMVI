@@ -1,0 +1,13 @@
+package br.com.unip.pim_vi.testes;
+
+import br.com.unip.pim_vi.modelo.Cliente;
+import br.com.unip.pim_vi.modelo.Produto;
+
+public class TesteCadastro {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package br.com.unip.pim_vi.modelo;
+
+public class SistemaInterno {
+	
+	private Integer senha = 1234;
+	
+	public void autenticador(FuncionarioAutenticavel fa) {
+		if(fa.autentica(this.senha)) {
+			System.out.println("Sucesso");
+		} else {
+			System.out.println("Não autorizado");
+		}
+	}
+
+}

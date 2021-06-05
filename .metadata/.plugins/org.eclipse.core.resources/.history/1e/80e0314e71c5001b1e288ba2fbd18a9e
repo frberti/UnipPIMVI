@@ -1,0 +1,17 @@
+package br.com.unip.pim_vi.modelo;
+
+import br.com.unip.pim_vi.pessoa.Funcionario;
+
+public class SistemaInterno {
+	
+	private Integer senha;
+	
+	public void autentica(Funcionario funcionario) {
+		if(this.senha == senha) {
+			System.out.println("Sucesso");
+		} else {
+			System.out.println("Não autorizado");
+		}
+	}
+
+}

@@ -1,0 +1,30 @@
+package br.com.unip.pim_vi.testes;
+
+import br.com.unip.pim_vi.modelo.SistemaInterno;
+import br.com.unip.pim_vi.modelo.TelaLogin;
+import br.com.unip.pim_vi.pessoa.Cliente;
+import br.com.unip.pim_vi.pessoa.Estoquista;
+import br.com.unip.pim_vi.pessoa.Funcionario;
+
+public class TesteCadastro {
+
+	public static void main(String[] args) {
+		
+		SistemaInterno si = new SistemaInterno();
+		
+//		Funcionario estoquista = new Estoquista();
+//		estoquista.setSenha(12345);
+//		si.autentica(estoquista);
+		
+		Cliente cliente = new Cliente();
+		cliente.setLogin("abc");
+		cliente.setSenha(1234);
+		
+		TelaLogin tela = new TelaLogin();
+		tela.autentica(cliente);
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+
+import br.com.unip.pim_vi.modelo.Cliente;
+
+/**
+ * 
+ */
+public class GerenciadorDeClientes {
+
+    /**
+     * Default constructor
+     */
+    public GerenciadorDeClientes() {
+    }
+
+
+
+    /**
+     * @param cliente 
+     * @return
+     */
+    public boolean fazerLogin(Cliente cliente) {
+        // TODO implement here
+        return false;
+    }
+
+}

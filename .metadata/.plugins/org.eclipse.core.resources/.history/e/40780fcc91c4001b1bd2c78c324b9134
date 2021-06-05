@@ -1,0 +1,8 @@
+package br.com.unip.pim_vi.factory;
+
+public class Snippet {
+	public static void main(String[] args) {
+		ConnectionFactory
+	}
+}
+

@@ -1,0 +1,23 @@
+package br.com.unip.pim_vi.pessoa;
+
+import br.com.unip.pim_vi.modelo.Autenticavel;
+
+public abstract class Funcionario extends Pessoa implements FuncionarioAutenticavel{
+	
+	private Integer senha;
+
+	@Override
+	public void setSenha(int senha) {
+		this.senha = senha;
+	}
+
+	@Override
+	public boolean autentica(int senha) {
+		if(this.senha == senha) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+}

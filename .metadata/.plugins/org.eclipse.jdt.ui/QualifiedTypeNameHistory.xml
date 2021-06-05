@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="javax.sql.DataSource"/>
+    <fullyQualifiedTypeName name="br.com.unip.pim_vi.modelo.Cliente"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.Statement"/>
+    <fullyQualifiedTypeName name="java.beans.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="br.com.unip.pim_vi.modelo.Produto"/>
+    <fullyQualifiedTypeName name="br.com.unip.pim_vi.funcionario.Supervisor"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="br.com.unip.pim_vi.modelo.SistemaInterno"/>
+    <fullyQualifiedTypeName name="br.com.unip.pim_vi.funcionario.Funcionario"/>
+    <fullyQualifiedTypeName name="br.com.unip.pim_vi.funcionario.Estoquista"/>
+    <fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
+    <fullyQualifiedTypeName name="br.com.unip.pim_vi.pessoa.Cliente"/>
+    <fullyQualifiedTypeName name="br.com.unip.pim_vi.modelo.TelaLogin"/>
+    <fullyQualifiedTypeName name="br.com.unip.pim_vi.modelo.FuncionarioAutenticavel"/>
+    <fullyQualifiedTypeName name="br.com.unip.pim_vi.modelo.ClienteAutenticavel"/>
+    <fullyQualifiedTypeName name="br.com.unip.pim_vi.pessoa.Autenticacao"/>
+    <fullyQualifiedTypeName name="br.com.unip.pim_vi.modelo.Autenticavel"/>
+    <fullyQualifiedTypeName name="java.lang.StrictMath"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="br.com.unip.modelo.Categoria"/>
+    <fullyQualifiedTypeName name="br.com.unip.funcionarios.Funcionario"/>
+    <fullyQualifiedTypeName name="br.com.unip.sistema.Atendente"/>
+    <fullyQualifiedTypeName name="br.com.unip.sistema.Autenticacao"/>
+    <fullyQualifiedTypeName name="br.com.unip.sistema.Autenticavel"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="br.com.unip.factory.ConnectionFactory"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="br.com.unip.dao.ProdutoDAO"/>
+    <fullyQualifiedTypeName name="br.com.unip.modelo.Produto"/>
+    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
+    <fullyQualifiedTypeName name="br.com.unip.modelo.Cliente"/>
+    <fullyQualifiedTypeName name="br.com.unip.modelo.FormaPagamento"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="br.com.unip.modelo.Usuario"/>
+    <fullyQualifiedTypeName name="br.com.unip.modelo.NivelUsuario"/>
+</qualifiedTypeNameHistroy>

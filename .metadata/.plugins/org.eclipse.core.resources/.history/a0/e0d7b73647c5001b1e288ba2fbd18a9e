@@ -1,0 +1,87 @@
+package br.com.unip.pim_vi.modelo;
+
+import java.math.BigDecimal;
+
+public class Produto {
+
+	private Integer codigoDeBarras;
+	private String nome;
+	private String categoria;
+	private String fabricante;
+	private Integer quantidade;
+	private BigDecimal preco;
+
+	
+
+	public Integer getCodigoDeBarras() {
+		return codigoDeBarras;
+	}
+
+
+
+	public void setCodigoDeBarras(Integer codigoDeBarras) {
+		this.codigoDeBarras = codigoDeBarras;
+	}
+
+
+
+	public String getNome() {
+		return nome;
+	}
+
+
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+
+
+	public String getCategoria() {
+		return categoria;
+	}
+
+
+
+	public void setCategoria(String categoria) {
+		this.categoria = categoria;
+	}
+
+
+
+	public String getFabricante() {
+		return fabricante;
+	}
+
+
+
+	public void setFabricante(String fabricante) {
+		this.fabricante = fabricante;
+	}
+
+
+
+	public Integer getQuantidade() {
+		return quantidade;
+	}
+
+
+
+	public void setQuantidade(Integer quantidade) {
+		this.quantidade = quantidade;
+	}
+
+
+
+	public BigDecimal getPreco() {
+		return preco;
+	}
+
+
+
+	public void setPreco(BigDecimal preco) {
+		this.preco = preco;
+	}
+
+
+}

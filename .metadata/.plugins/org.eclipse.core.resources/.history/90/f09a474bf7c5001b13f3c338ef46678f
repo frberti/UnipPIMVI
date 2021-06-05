@@ -1,0 +1,5 @@
+package br.com.unip.sistema;
+
+public class Supervisor {
+
+}

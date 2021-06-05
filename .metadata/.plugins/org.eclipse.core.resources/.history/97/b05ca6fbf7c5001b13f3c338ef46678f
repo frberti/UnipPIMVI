@@ -1,0 +1,7 @@
+package br.com.unip.sistema;
+
+import br.com.unip.funcionarios.Funcionario;
+
+public class Atendente extends Funcionario {
+
+}

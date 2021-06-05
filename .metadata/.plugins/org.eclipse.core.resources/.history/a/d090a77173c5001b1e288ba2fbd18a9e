@@ -1,0 +1,9 @@
+package br.com.unip.pim_vi.modelo;
+
+public interface FuncionarioAutenticavel {
+	
+	public abstract void setSenha(Integer senha);
+
+	public abstract boolean autentica(Integer senha);
+	
+}

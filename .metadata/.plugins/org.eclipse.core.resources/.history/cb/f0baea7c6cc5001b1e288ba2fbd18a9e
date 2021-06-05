@@ -1,0 +1,21 @@
+package br.com.unip.pim_vi.funcionario;
+
+public class Estoquista extends Funcionario {
+	
+	private Integer senha;
+
+	@Override
+	public void setSenha(int senha) {
+		this.senha = senha;
+	}
+
+	@Override
+	public boolean autentica(int senha) {
+		if(this.senha == senha) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+}

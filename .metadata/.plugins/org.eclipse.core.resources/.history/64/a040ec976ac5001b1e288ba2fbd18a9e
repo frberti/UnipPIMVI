@@ -1,0 +1,9 @@
+package br.com.unip.pim_vi.funcionario;
+
+import br.com.unip.pim_vi.modelo.Pessoa;
+
+public abstract class Funcionario extends Pessoa {
+	
+	
+
+}

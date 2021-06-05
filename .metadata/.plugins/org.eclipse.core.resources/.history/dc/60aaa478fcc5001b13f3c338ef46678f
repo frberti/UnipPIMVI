@@ -1,0 +1,26 @@
+package br.com.unip.dao;
+
+import java.util.List;
+
+import br.com.unip.modelo.Cliente;
+import br.com.unip.modelo.Produto;
+
+public class ClienteDAO {
+
+	public void cadastrar(Produto produto) {
+
+	}
+
+	public List<Produto> listar() {
+		return null;
+	}
+
+	public void atualizar(Cliente cliente) {
+
+	}
+
+	public void remover(Cliente cliente) {
+
+	}
+
+}

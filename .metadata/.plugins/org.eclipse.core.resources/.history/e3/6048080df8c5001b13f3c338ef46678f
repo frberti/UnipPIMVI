@@ -1,0 +1,8 @@
+package br.com.unip.sistema;
+
+import br.com.unip.funcionarios.Funcionario;
+
+public class Estoquista extends Funcionario
+{
+
+}

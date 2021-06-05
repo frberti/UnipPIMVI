@@ -1,0 +1,65 @@
+package br.com.unip.pim_vi.pessoa;
+
+import java.sql.Date;
+
+import br.com.unip.pim_vi.modelo.Autenticavel;
+
+public class Cliente extends Pessoa implements Autenticavel{
+
+	private Integer codigo;
+	private Date dataDeCadastro;
+	private Integer senha;
+	private String login;
+
+	public Cliente(Integer codigo, Date dataDeCadastro) {
+		this.codigo = codigo;
+		this.dataDeCadastro = dataDeCadastro;
+	}
+
+	public Integer getCodigo() {
+		return codigo;
+	}
+
+	public void setCodigo(Integer codigo) {
+		this.codigo = codigo;
+	}
+
+	public Date getDataDeCadastro() {
+		return dataDeCadastro;
+	}
+
+	public void setDataDeCadastro(Date dataDeCadastro) {
+		this.dataDeCadastro = dataDeCadastro;
+	}
+
+	@Override
+	public String toString() {
+		return "Cliente [codigo=" + codigo + ", dataDeCadastro=" + dataDeCadastro + "]";
+	}
+
+	@Override
+	public void setSenha(int senha) {
+		this.senha = senha;
+	}
+
+	@Override
+	public boolean autentica(int senha) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean autentica(int senha, String login) {
+		if(this.senha == senha || this.login == login) {
+			System.out.println("Sucesso");
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	
+	
+	
+
+}

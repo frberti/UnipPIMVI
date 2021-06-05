@@ -1,0 +1,11 @@
+package br.com.unip.pim_vi.modelo;
+
+public interface Autenticavel {
+	
+	public abstract void setSenha(int senha);
+
+	public abstract boolean autentica(int senha);
+	
+	public abstract boolean autenticaCliente(int senha, String login);
+
+}

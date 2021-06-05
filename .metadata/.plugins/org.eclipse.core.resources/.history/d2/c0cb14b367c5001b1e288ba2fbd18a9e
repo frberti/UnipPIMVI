@@ -1,0 +1,21 @@
+package br.com.unip.pim_vi.funcionario;
+
+import br.com.unip.pim_vi.modelo.Pessoa;
+
+public class Funcionario extends Pessoa {
+	
+	private Integer senha = 1234;
+	
+	public void setSenha(Integer senha) {
+		this.senha = senha;
+	}
+	
+	public boolean autentica(Integer senha) {
+		if(this.senha == senha) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+}

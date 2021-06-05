@@ -1,0 +1,17 @@
+package br.com.unip.pim_vi.funcionario;
+
+public class Atendente extends Funcionario{
+
+	@Override
+	public void setSenha(int senha) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean autentica(int senha) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

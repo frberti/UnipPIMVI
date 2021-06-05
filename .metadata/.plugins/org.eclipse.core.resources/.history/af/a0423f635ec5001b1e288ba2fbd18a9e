@@ -1,0 +1,13 @@
+package br.com.unip.pim_vi.funcionario;
+
+import br.com.unip.pim_vi.modelo.Endereco;
+import br.com.unip.pim_vi.modelo.Pessoa;
+
+public class Funcionario extends Pessoa{
+	
+	private String nome;
+	private Integer
+	private Endereco endereco;
+	
+
+}

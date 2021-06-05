@@ -1,0 +1,22 @@
+package br.com.unip.pim_vi.modelo;
+
+import br.com.unip.pim_vi.pessoa.Cliente;
+
+public class TelaLogin {
+
+	private String senha;
+	private String login;
+	
+	public boolean autentica(Cliente cliente) {
+		
+		if (this.senha == senha && this.login == login) {
+			System.out.println("Bem vindo");
+				return true;
+		}
+		return false;
+		
+	}
+	
+	
+
+}

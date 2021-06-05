@@ -1,0 +1,19 @@
+package br.com.unip.pim_vi.modelo;
+
+public abstract class Autenticavel {
+	
+	private Integer senha;
+	
+	public void setSenha(Integer senha) {
+		this.senha = senha;
+	};
+
+	public boolean autentica(int senha) {
+		if(this.senha == senha) { 
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+}

@@ -1,0 +1,13 @@
+package br.com.unip.modelo;
+
+public class Produto {
+
+	private Integer codigoBarras;
+	private String nome;
+	private String categoria;
+	private String fabricante;
+	private Integer quantidade;
+	private Double preco;
+	
+
+}

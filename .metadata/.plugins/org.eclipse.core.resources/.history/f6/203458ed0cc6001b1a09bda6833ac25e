@@ -1,0 +1,28 @@
+package br.com.unip.modelo;
+
+public class Categoria {
+
+	private int idCat;
+	private String categoria;
+	
+	public Integer getIdCat() {
+		return idCat;
+	}
+	public void setIdCat(Integer idCat) {
+		this.idCat = idCat;
+	}
+	public String getCategoria() {
+		return categoria;
+	}
+	public void setCategoria(String categoria) {
+		categoria = categoria;
+	}
+	
+	@Override
+	public String toString() {
+		return "Categoria [idCat=" + idCat + ", categoria=" + categoria + "]";
+	}
+	
+	
+
+}

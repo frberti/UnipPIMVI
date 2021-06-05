@@ -1,0 +1,91 @@
+package br.com.unip.modelo;
+
+import java.math.BigDecimal;
+import java.time.LocalDate;
+
+public class Venda {
+	
+	private Integer idVenda;
+	private Integer idItemVenda;
+	private LocalDate dataVenda;
+	private String produto;
+	private Integer quantidade;
+	private BigDecimal preco;
+	private BigDecimal totalVenda;
+	private FormaPagamento idFormaPagto;
+	
+	public Integer getIdVenda() {
+		return idVenda;
+	}
+	
+	public void setIdVenda(Integer idVenda) {
+		this.idVenda = idVenda;
+	}
+	
+	public Integer getIdItemVenda() {
+		return idItemVenda;
+	}
+	
+	public void setIdItemVenda(Integer idItemVenda) {
+		this.idItemVenda = idItemVenda;
+	}
+	
+	public LocalDate getDataVenda() {
+		return dataVenda;
+	}
+	
+	public void setDataVenda(LocalDate dataVenda) {
+		this.dataVenda = dataVenda;
+	}
+	
+	public String getProduto() {
+		return produto;
+	}
+	
+	public void setProduto(String produto) {
+		this.produto = produto;
+	}
+	
+	public Integer getQuantidade() {
+		return quantidade;
+	}
+	
+	public void setQuantidade(Integer quantidade) {
+		this.quantidade = quantidade;
+	}
+	
+	public BigDecimal getPreco() {
+		return preco;
+	}
+	
+	public void setPreco(BigDecimal preco) {
+		this.preco = preco;
+	}
+	
+	public BigDecimal getTotalVenda() {
+		return totalVenda;
+	}
+	
+	public void setTotalVenda(BigDecimal totalVenda) {
+		this.totalVenda = totalVenda;
+	}
+	
+	public FormaPagamento getIdFormaPagto() {
+		return idFormaPagto;
+	}
+	
+	public void setIdFormaPagto(FormaPagamento idFormaPagto) {
+		this.idFormaPagto = idFormaPagto;
+	}
+	
+	@Override
+	public String toString() {
+		return "Venda [idVenda=" + idVenda + ", idItemVenda=" + idItemVenda + ", dataVenda=" + dataVenda + ", produto="
+				+ produto + ", quantidade=" + quantidade + ", preco=" + preco + ", totalVenda=" + totalVenda
+				+ ", idFormaPagto=" + idFormaPagto + "]";
+	}
+	
+	
+	
+
+}

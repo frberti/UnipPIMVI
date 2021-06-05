@@ -1,0 +1,11 @@
+package br.com.unip.pim_vi.factory;
+
+import com.sun.tools.javac.util.List;
+
+public class ConnectionFactory {
+	
+	public List<Produto> listar(){
+		return 0;
+	}
+
+}
